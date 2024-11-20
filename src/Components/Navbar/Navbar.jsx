@@ -5,7 +5,6 @@ import "./Navbar.css";
 
 export default function Navbar(props) {
   const [toggleFilter, setToggleFilter] = useState(false);
-
   function handleDisplayToggle(e) {
     setToggleFilter(!toggleFilter);
     if (e.target.value !== undefined) {
