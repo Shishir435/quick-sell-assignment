@@ -1,0 +1,78 @@
+.nav {
+  width: 100%;
+  border-bottom: 1px solid var(--grey1);
+}
+.nav-container {
+  width: 95%;
+  margin: auto;
+  padding: 1rem 0rem;
+}
+.nav-display-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem 0.8rem;
+  width: fit-content;
+  border: 1px solid var(--grey1);
+  box-shadow: 0px 0px 5px 2px var(--grey1);
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+.nav-display-btn:hover {
+  box-shadow: 0 0 10px 5px var(--grey3);
+}
+.nav-display-icon {
+  display: flex;
+  align-items: center;
+}
+.nav-display-filter {
+  margin-right: 0.6rem;
+}
+.nav-display-filter > img {
+  height: 14px;
+  fill: var(--grey1);
+}
+.nav-display-heading {
+  font-weight: 500;
+}
+.nav-display-drop {
+  margin-left: 0.3rem;
+}
+.nav-display-drop > img {
+  height: 16px;
+}
+.nav-display-dropdown {
+  display: none;
+  width: fit-content;
+  position: absolute;
+  z-index: 2;
+  margin-top: 0.6rem;
+  padding: 0.8rem 1rem;
+  background-color: var(--grey3);
+  border: 1px solid var(--grey1);
+  border-radius: 0.5rem;
+}
+.nav-display-dropdown-show {
+  display: block;
+}
+.nav-display-filters {
+  width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-display-filters:first-child {
+  margin-bottom: 0.5rem;
+}
+.nav-dropdown-category {
+  color: var(--text-grey);
+  font-weight: 500;
+}
+.nav-selector {
+  padding: 0.3rem;
+  width: 100px;
+  border-radius: 0.3rem;
+  border-color: var(--grey1);
+  font-weight: 600;
+  cursor: pointer;
+}
