@@ -1,9 +1,9 @@
 .list-container {
-  width: 360px;
-  margin-left: 2.5rem;
+  width: 350px;
+  margin-left: 1.5rem;
 }
 .list-container:last-child {
-  margin-right: 2.5rem;
+  margin-right: 1.6rem;
 }
 .list-header {
   display: flex;
