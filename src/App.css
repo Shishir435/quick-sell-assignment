@@ -20,6 +20,6 @@
   overflow-x: scroll;
 }
 .board-details-list {
-  width: fit-content;
+  width: auto;
   display: flex;
 }
