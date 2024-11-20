@@ -1,8 +1,32 @@
-# React + Vite
+## Installation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 1. Clone the repository
 
-Currently, two official plugins are available:
+```bash
+git clone https://github.com/Shishir435/quick-sell-assignment.git
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 2. Install Dependencies
+
+Make sure to have pnpm installed. If not, install it globally:
+
+```bash
+npm install -g pnpm
+```
+
+Then, navigate to the project directory and install dependencies:
+
+```bash
+cd quick-sell-assignment
+pnpm install
+```
+
+### 3. Start the Development Server
+
+To start the development server, run:
+
+```bash
+pnpm dev
+```
+
+This will start the React Vite application on http://localhost:5173.
