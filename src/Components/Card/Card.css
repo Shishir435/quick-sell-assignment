@@ -58,6 +58,9 @@
   margin-top: 0.8rem;
 }
 .card-tag-icon {
+  border: 1px solid var(--grey1);
+  padding: 0.3rem;
+  border-radius: 0.5rem;
   display: flex;
   align-items: center;
   margin-right: 0.5rem;
@@ -67,13 +70,15 @@
   height: 20px;
 }
 .card-tag-box {
+  border: 1px solid var(--grey1);
   padding: 0.3rem;
+  border-radius: 0.5rem;
   width: fit-content;
 }
 .card-tag-title {
   font-size: 0.85rem;
-  font-weight: 500;
-  color: var(--text-grey);
+  font-weight: 600;
+  color: var(--black1);
 }
 .card-tag-title::before {
   display: inline-block;
